@@ -18,7 +18,7 @@ The numbering follows the playlist order, but seperated into multiple parts for 
 
 <hr/>
 
-## TLSA
+## TSLA
 
 A simple forecast for the range of TSLA stock price using the historical prices from AMZN and AAPL. Here is a snapshot created on 8th November 2022, when TSLA is boarding at 52-week lows:
 
