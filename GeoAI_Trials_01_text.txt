@@ -1,0 +1,225 @@
+ELASTIC PROPERTIES OF SOIL
+Hooke's generalized stress-strain law is commonly used in solving geotechnical problems
+of stress and settlement. In equation form Hooke's stress-strain law for any homogeneous,
+isotropic, elastic material is
+ey = —(a-y- fxax - IA(T1) (2-64)
+ez = —{az - IX(Jx - IX(Jy)
+The signs here are based on using (+) \x of Eq. (b) following.
+In matrix notation Eq. (2-64) can be written as
+€ = Da (2-64<i)
+where the matrix D is the following
+D
+The shear modulus G' (which may be subscripted) is defined as the ratio of shear stress ss
+to shear strain es.25 It is related to Es and /x as
+Poisson's ratio /x is used in both pressure and settlement studies and is defined as the ratio
+of axial compression ev to lateral expansion ei strains, or
+M = ^ (W
+The /x ratio has a (+) sign in this equation if ev is compressive strain and the lateral strain
+€L causes the lateral dimension to increase. In a tension test the sign is (+) if the sample ev
+produces elongation while the lateral dimension(s) decrease. The shearing strain es is de-
+fined as the change in right angle of any corner of an element in compression as illustrated in
+25The shear modulus in structural mechanics literature often uses the symbol G,-, where i may be s = steel; c =
+concrete; etc. Since Gs is used in geotechnical work for the specific gravity of the soil solids, the closest symbol to
+the "literature" is G'.(b) Poisson's ratio, \i [(+) as shown]. (c) Modulus of subgrade reaction.
+Figure 2-43 Elastic properties of soil.
+Fig. 2-43fo such that
+es = angle BCD - angle B1CD' (c)
+Another concept occasionally used is the volumetric strain, e^ defined using initial mass
+volume V and volumetric change A V as
+AVev = — = ei +e2 + 63 (d)
+The subscripts x, y, and z may be substituted for 1, 2, and 3 in this equation.
+In confined compression tests (such as the consolidation test described in Sec. 2-10 or
+for the compression beneath the tip of a pile in situ) the lateral strain (62, €3) is taken as
+0.0. Making these substitutions in Eqs. (2-64) and solving for 61 = ev, one can obtain the
+following:
+_ (1 + IJi)(I - 2/X)CJ1 1 - 2/1 0-1
+Es(l - fi) 2(1 - fi) G' K6)
+Since this textbook uses the z axis as the vertical axis, you may use az for a\ in this equation.
+Of interest is that for /JL = 0.5, this equation gives the volumetric strain ev = 0.0; i.e., there
+is no volume change in the soil. Also, for /x = 0 the volumetric strain is ev = ajEs = ez.
+The volumetric strain was used to plot e versus log p of Fig. 2-\6b.Deformation, SPressure, a
+(a) Stress-strain modulus.Strain, € Strain, eDeviator stress, Aa
+Aa
+1 unit1 unit
+Use: Initial tangent
+or
+initial secant lineNoncyclic testCyclic test
+Note increase in E5EnvelopeInitial tangent modulus
+Secant modulusDepends on
+andTABLE 2-7
+Values or value ranges for Poisson's ratio /i
+Type of soil fx
+Clay, saturated 0.4-0.5
+Clay, unsaturated 0.1-0.3
+Sandy clay 0.2-0.3
+Silt 0.3-0.35
+Sand, gravelly sand - 0.1-1.00
+commonly used 0.3-0.4
+Rock 0.1-0.4 (depends somewhat on
+type of rock)
+Loess 0.1-0.3
+Ice 0.36
+Concrete 0.15
+Steel 0.33
+Another material property concept is the bulk modulus Et,, which is defined as the ratio of
+hydrostatic stress to the volumetric strain ev and is given as
+_ 2 , l + /x _ Es
+Eb ~ 3° T^ " 3(1-2M) a)
+For an elastic material the shear modulus G' cannot be (-), so Eq. (a) sets the lower limit of
+/JL > -1. Equation if) sets the upper limit at /JL < 0.5. It appears that the range of /i for soils
+(that are not "elastic") is from about -0.1 to 1.00. Table 2-7 gives a range of values for select
+materials. It is very common to use the following values for soils:
+ft Soil type
+0.4-0.5 Most clay soils
+0.45-0.50 Saturated clay soils
+0.3-0.4 Cohesionless—medium and dense
+0.2-0.35 Cohesionless—loose to medium
+Although it is common to use /JL = 0.5 for saturated clay soils, the reader should be aware
+that this represents a condition of no volume change under the applied stress az. Over time,
+however, volume change does occur as the pore fluid drains. Equation (e) defines the Poisson's
+ratio that develops initially (ev = 0) and also later when ev > 0. Since the strain is produced
+from stress and Fig. 1-1 indicates a vertical variation, it necessarily follows that /JL is stress-
+dependent from Eq. (e).
+A special case in geotechnical work is that of plane strain. This arises where strains occur
+parallel to two of the coordinate axes (say the x and z) but the strain is zero perpendicular
+to the x-z plane (along the y axis). If we set ey = 0 in the set of equations for Hooke's law
+[(Eqs. (2-64)] and solve for the resulting values of E5 and /JL, we obtain the following:
+(2-65)If we take /JL = 0.5 and solve for the plane strain value /i',we have
+^ l-/x (1-0.5)
+which is greater than the "elastic" value of 0.5. The plane strain /JL' should be used in plane
+strain problems—and with E's if applicable.
+The modulus of sub grade reaction (also subgrade modulus or subgrade reaction) is de-
+fined as (see Fig. 2-43c)
+ks = £ (2-66)
+where Aa is the increment of contact pressure and AS is the corresponding change in set-
+tlement or deformation. These data can be obtained from a plate (or footing) load test and a
+plot drawn as Fig. 2-43c. The 5 versus a plot is generally not linear, and one must obtain ks
+as the slope of either a tangent or secant line. Either a tangent (solid line) or secant (dashed)
+line slope of Fig. 2-43c can be used for ks. Usually, initial values (through the origin) are
+used; however, one can choose any tangent point or an averaged value using the two points
+cut by a secant line along the curve. The secant slope defined by the origin (S = 0) and at
+S = 0.0254 m (25 mm or 1 in.) giving AS = 0.0254 m is recommended as an initial selection
+for Eq. (2-66).
+The stress-strain modulus E8, Poisson's ratio /A, and the modulus of subgrade reaction ks
+are the elastic properties of most interest. These values are commonly used in computing
+estimates of foundation settlements. The shear modulus G' is commonly used in vibration
+problems of Chap. 20 to estimate foundation frequency and displacement amplitudes.
+The stress-strain modulus can be obtained from the slope (tangent or secant) of stress-
+strain curves from triaxial tests (see Figs. 2-43a and 2-32). It is often estimated from field
+tests that are described in Chap. 3 (see also Table 5-6). Typical value ranges for several soils
+are given in Table 2-8. It can be seen that Es for soils is only Mo to Moo that of steel and
+concrete.
+For the CD or CU triaxial test with a cell pressure of a3 and a deviator stress Ao-I =
+0"i ~ 0"3 (the pressure applied at various load stages during the test) we may rewrite one of
+Eq. (2-64), sayez = 61, as
+€1 = ^r(Ao-! -2/JLa3) (g)
+Jb8
+It is usual to plot €1 (computed directly as Ao-\/L) versus Ao"i as shown in Fig. 2-43a. From
+this plot we should be able to solve Eq. (g) above for both E8 and /JL by taking several pairs
+of points along the curve such that the curve slope is approximately constant in the interval
+between point pairs. If we do this, we find that /JL > 0.5 at very small strains and that both
+E8 and /JL are stress-dependent. Of course, we could directly inspect Fig. 2-43a and readily
+observe that if the curve is not linear, then the stress-strain modulus E8 is not linear. This result
+again gives reason to term the curve "slope" the stress-strain modulus, and not the modulus
+of elasticity.
+Equation (g) also gives clear reason why unconfined compression tests with 0-3=0 give
+larger strains (and smaller E8) than confined compression tests. Since the soil is "confined"TABLE 2-8
+Value range* for the static stress-strain
+modulus E5 for selected soils (see also
+Table 5-6)
+Field values depend on stress history, water
+content, density, and age of deposit
+Soil Es, MPa
+Clay
+Very soft 2-15
+Soft 5-25
+Medium 15-50
+Hard 50-100
+Sandy 25-250
+Glacial till
+Loose 10-150
+Dense 150-720
+Very dense 500-1440
+Loess 15-60
+Sand
+Silty 5-20
+Loose 10-25
+Dense 50-81
+Sand and gravel
+Loose 50-150
+Dense 100-200
+Shale 150-5000
+Silt 2-20
+* Value range is too large to use an "average" value for design.
+in situ, it is reasonable for confined compression tests to produce better "elastic" parameters.
+Although it is difficult to compare laboratory and field E5 values, there is some evidence that
+field values are often four to five times larger than laboratory values from the unconfined
+compression test. For this reason, current practice tends to try to obtain "field" values from in
+situ testing whenever possible. This topic will be taken up in more detail in the next chapter.
+Table 2-8 gives a range of Es values that might be obtained. Note that the range is very
+large, owing to the foregoing factors as well as those factors given on the table. With this
+wide range of values the reader should not try to use "averaged" values from this table for
+design.
+If laboratory test plots similar to Fig. 2-43a are used, it is most common to use the initial
+tangent modulus to compute the stress-strain modulus Es for the following reasons:
+1. Soil is elastic only near the origin.
+2. There is less divergence between all plots in this region.
+3. The largest values are obtained—often three to five times larger than a tangent or secant
+modulus from another point along the curve.In spite of these several shortcomings for Es the value along the curve is commonly used
+in finite-element analyses based on the computed stress level. This computation may require
+that the problem be iterated several times until the computed stress level matches the stress
+level that was used on the previous cycle to obtain Es.
+A number of investigators [Leonards (1968), Soderman et al. (1968), Makhlouf and Stew-
+art (1965), Larew and Leonards (1962)] have suggested that a better initial tangent modulus
+for settlement analyses might be obtained by cycling the deviator stress Acri to about half
+the estimated failure stress several times [Leonards (1968) suggests at least five cycles] and
+then compressing the sample to failure in the CU triaxial test. The initial tangent modulus
+(may be called Er) by this method may be three to five times larger than Es obtained on the
+first cycle (see Fig. 2-43a). The increase in stiffness depends on the initial soil state and on
+sample disturbance. This stress-strain modulus is a static value.
+Cyclic tests using low-amplitude strains and frequencies (or stress reversals) in the range
+of g to 10 Hz are used to obtain dynamic values of Es and G'. The dynamic values (considered
+in more detail in Chap. 20) may be from two to ten times the static value.
+Both Es and Poisson's ratio /JL are heavily dependent on the following:
+1. Method of laboratory test (confined, unconfined, undrained, drained).
+2. Degree of confinement. Es increases from a minimum value in the unconfined compression
+test to very large values depending on cell pressure ac.
+3. Overconsolidation ratio OCR—usually increases with OCR.
+4. Soil density—Es usually increases with depth in situ because the density usually increases
+(in the same stratum).
+5. Water content—lower water contents tend to higher Es. Brittle fractures at low strains
+occur at low water contents.
+6. Strain rate (e/time)—Es is lower by a factor of 2 or more compared with values obtained
+at high strain rates [see Richardson and Whitman (1963)]. Field strain rates are usually,
+but not always, lower than in the laboratory.
+7. Sample disturbance—usually reduces Es from in situ value.
+These several factors mean that considerable judgment is required to obtain a reasonably
+reliable value for design use.
+The stress-strain curve for all soils is nonlinear except in a very narrow region near the
+origin. Kondner (1963) proposed that the stress-strain curve (Fig. 2-AAa) could be represented
+by a hyperbolic equation of the form
+e
+0*1 - (73 = —T-
+a + be
+which could be rewritten with ACJJ = cr\ - a3 in linear form as
+-^- = a + be (2-67)
+Note the similarity of Eq. (2-67) to Eq. (2-47). The left side of Eq. (2-67) can be computed for
+various values of deviator stress and the corresponding strain to make a linear plot as shown
+in Fig. 2-AAb. Extension of the plot across the discontinuity at e —> 0 gives the coefficientFigure 2-44 (a) Usual stress-strain plot—hyperbolic-curve approximation; (b) transformed representation of
+stress-strain—gives approximate linear curve as shown. [After Kondner (1963).].
+a, and the slope is b. Although Kondner proposed this procedure for clay soils, it should be
+applicable for all soils with similar stress-strain curves [see Duncan and Chang (1970)]. The
+form of Eq. (2-67) rearranged and shown on Fig. 2-AAb has particular value in finite-element
+method (FEM) analyses since it is much easier to program an equation to compute Es based
+on current output e than to make a search along a stress-strain curve (using a number of values
+of e versus Acn input as an array). Computation time is greatly reduced when a large number
+of elements are in the FEM model.
+The following empirical correlations may be used to estimate Es for cohesive soils:
+Normally consolidated sensitive clay:
+Es = (200 to 500) X su (2-68)
+Normally consolidated insensitive and lightly overconsolidated clay:
+Es = (750 to 1200) X su (2-69)
+Heavily overconsolidated clay
+Es = (1500 to 2000) X su (2-70)
+Several equations will be presented in the next chapter, based on in situ testing, that may also
+be used for both cohesive and cohesionless soils to compute Es.
